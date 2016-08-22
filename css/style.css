@@ -1,0 +1,417 @@
+/*  
+Theme Name: Stellanova Blue
+Theme URI: http://topwpthemes.com/stellanova-blue/
+Description: Designed by <a href="http://designed.nu">Design Blog</a> and available FREE at <a href="http://www.zinruss.com/themes/">WordPress Themes Gallery</a>
+Author: Design Blog
+Author URI: http://designed.nu
+� 2008, Design Blog. All rights reserved. 
+*/
+
+* { margin: 0; padding: 0; }
+
+body {
+	background: #33a2e8 url(../images/background.jpg) repeat-x top;
+	text-align: center;
+	margin: 0 auto;
+}
+	
+
+/* -------------------
+Main Structure
+------------------- */
+
+#frame {
+	width: 980px;
+	text-align: left;
+	margin: 0 auto;
+	background: url(../images/framebg.jpg) 0 0 no-repeat;
+}
+
+#middle {
+	background: url(../images/framebg.jpg) 0 0 repeat-y;
+	overflow: auto;
+	width: 100%;
+}
+
+#content {
+	float: left;
+	width: 860px;
+	padding-left: 0;
+	padding-right: 0;
+	background: #fefefe;
+	margin-left: 60px;
+}
+
+#sidebar {
+	float: left;
+	width: 230px;
+	padding: 0 0 10px 12px;
+}
+	
+/* -------------------
+Header
+------------------- */
+
+.headerLink {
+	display: block;
+	height: 100px;
+	width: 500px;
+	margin-left: 40px;
+}
+
+#header {
+	background: url(../images/header.jpg);
+	width: 980px;
+	height: 147px;
+}
+
+.header-title {
+
+	padding:138px 0 0 88px;
+	display: none;
+
+}
+.header-title a{
+	color:#15a1c4;
+	text-decoration:none;
+	border-bottom:none;
+}
+.header-title a:hover{
+	color:#15a1c4;
+	text-decoration:none;
+	border-bottom:none;
+}
+.header-description {
+	display: none;
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	color:#181818;
+	font-size:11px;
+	padding:0 0 0 89px;
+	text-align:left;
+	font-weight:normal;
+}
+
+.ad468 {
+	padding:20px 0 0 89px;
+	text-align:left;
+}
+	
+/* -------------------
+Content
+------------------- */
+
+#content .post {
+	margin: 0 0 15px 0;
+	padding: 0 10px 10px 10px;
+	border: 1px solid #b4e4ed;
+}
+
+/* general #content definitions */
+
+#content h2 {
+	color: #fff;
+	font: 1.2em Tahoma, Arial, Helvetica, sans-serif;
+	margin: 11px -2px 8px 0;
+	font-weight: bold;
+	padding: 4px 0 5px 6px;
+	background: url(../images/h2-bg.jpg);
+}
+
+#content h2 a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#content h2 span {
+
+	float: right;
+	margin-right: 6px;
+
+}
+
+#content h2 a.backLink {
+	display: block;
+	float: right;
+	padding-right: 10px;
+	padding-top: 3px;
+	font-weight: normal;
+	font-size: 0.8em;
+
+}
+
+#content h2 a:hover {
+	color: #dff;
+	text-decoration: none;
+}
+
+#content h3 {
+	font: 0.7em/1.5em Tahoma, Arial, Helvetica, sans-serif;
+	color: #181818;
+	font-weight: bold;
+	margin-left: 15px;
+}
+
+#content h4 {
+	font: 0.7em/1.5em Tahoma, Arial, Helvetica, sans-serif;
+	color: #181818;
+	border-left: 1em solid #a5c1e5;
+	padding: 0 0 0 0.5em;
+	margin: 1em 0;
+}
+
+#content p, #content dl {
+	color: #181818;
+	font: 0.8em/1.5em Tahoma, Arial, Helvetica, sans-serif;
+}
+
+#content p, #content ul, #content ol, #content dl {
+	margin: 0 0 0.7em 0;
+}
+
+#content li {
+	margin: 0 0 0 30px;
+	color: #181818;
+	font: 0.8em/1.5em Tahoma, Arial, Helvetica, sans-serif;
+}
+
+#content dl dt {
+	font-weight: bold;
+}
+
+#content dl dd {
+	margin: 0 0 0.4em 0.5em;
+}
+
+#content blockquote {
+	margin: 0 0 0 1em;
+	border-left: 5px solid #15a1c4;
+	padding: 0 0 0 1em;
+	color: #181818;
+}
+
+#content a { color: #15a1c4;
+	font: 1em Tahoma, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+#content a:hover { color: #15a1c4; }
+
+#content .post ul.post-data {
+	border-top: 1px dotted #181818;
+	list-style: none;
+	font: 0.85em/1.5em Tahoma, Arial, Helvetica, sans-serif;
+	padding: 0.1em 0 0.2em 0;
+	color: #fefefe;
+	margin: 1.3em 0 0 0;
+}
+
+#content .post ul.post-data li {
+	color: #181818;
+}
+
+#content .post ul.post-data a {
+	color: #15a1c4;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+#content .post ul.post-data a:hover {
+	color: #15a1c4;
+	text-decoration: underline;
+	font-weight:bold;
+}
+
+#content .post ul.post-data li.comments {
+	float: right;
+	margin: 0 0.7em 0 0;
+	display: inline;
+	font: 0.8em/1.5em Tahoma, Arial, Helvetica, sans-serif;
+}
+
+#content .post ul.post-data li.comments a {
+	padding: 0 0 0 15px;
+
+}
+
+#content .post ul.post-data li.posted {
+	margin: 0 0 0 0.7em;
+
+}
+
+#content .post ul.post-data li.posted a {
+	padding: 0 0 0 1px;
+
+}
+
+#content .post ul.post-data li.comments a:hover, #content .post ul.post-data li.posted a:hover {
+	background-position: 0 -38px;
+
+}
+
+#content a.moreInfo {
+	display: block;
+	text-align: right;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.entry {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+.entry  p {
+	margin: 5px 0 5px 0;
+	padding: 0;
+	font-size: 130%;
+}
+
+.entry em {
+	font-size: 130%;
+	color: #444;
+}
+
+
+/* -------------------
+Footer
+------------------- */
+
+#footer {
+	clear: left;
+	background: url(../images/footer.jpg);
+	height: 63px;
+	width: 980px;
+	margin: 0 auto;
+}
+
+#footer #footertext {
+	color: #181818;
+	font: 0.7em Tahoma, Arial, Helvetica, sans-serif;
+	padding: 0 0 0 0;
+	text-align: center;
+}
+
+#footer #footertext a {
+	color: #181890;
+	text-decoration: none;
+}
+
+#footer #footertext a:hover {
+	color: #1818ff;
+	text-decoration: none;
+}
+
+#footer #searchform {
+	padding: 33px 0 0 30px;
+}
+
+#footer #searchform .searchfield {
+	height: 17px;
+}
+
+#footer #searchform .searchbutton {
+	height:22px;
+}
+
+
+
+.alt
+{
+
+	font: 1em Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.commentlist {
+	background: #fefefe;
+
+}
+
+.commentlist li {
+	font: 1em Tahoma, Arial, Helvetica, sans-serif;
+	width: 563px;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+
+.commentmetadata
+{
+	font: 11px Tahoma, Arial, Helvetica, sans-serif;
+
+}
+
+.commentlist cite, .commentlist cite a {
+	font-weight:bold;
+	font-style:normal;
+	font-size:1.1em;
+}
+
+
+.commentlist p
+{
+	font: 16px Tahoma, Arial, Helvetica, sans-serif;
+}
+
+#commentform {
+	margin: 2em 0 2em 2em;
+	width: 565px;
+}
+
+#commentform textarea {
+
+	background: #f0f8fa;
+	border: 1px solid #b4e4ed;
+	width: 565px;
+}
+#commentform textarea:hover {
+	background: #f0f8fa;
+	border: 1px solid #b4e4ed;
+}
+#commentform textarea:focus {
+	background: #f0f8fa;
+	border: 1px solid #b4e4ed;
+}
+
+#commentform #email, #commentform #author, #commentform #url {
+	font-size: 1.1em;
+	background: #f0f8fa;
+	border: 1px solid #b4e4ed;
+	width: 180px;
+	height: 15px;
+}
+#commentform #email:hover, #commentform #author:hover, #commentform #url:hover {
+	font-size: 1.1em;
+	background: #f0f8fa;
+	border: 1px solid #b4e4ed;
+	width: 180px;
+}
+#commentform #email:focus, #commentform #author:focus, #commentform #url:focus {
+	font-size: 1.1em;
+	background: #f0f8fa;
+	border: 1px solid #b4e4ed;
+	width: 180px;
+}
+#commentform input{
+	margin-bottom: 3px;
+}
+
+#commentform #submit {
+	margin: 0 0 10px;
+	float:left;
+	background: url(../images/submit-button.jpg);
+	color: #181818;
+	font: 11px Tahoma, Arial, Helvetica, sans-serif;
+	border:1px solid #b4e4ed;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 2px;
+	height: 20px;
+}
+
+.post .info{
+	padding:2px 3px 3px 8px;
+	border:1px solid #fefefe;
+	background-color:#ffffff;
+	font-size:12px;
+	color:#181818;
+}
+
